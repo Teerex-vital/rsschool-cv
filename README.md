@@ -1,1 +1,1 @@
-https://Teerex-vital.github.io/rsschool-cv/cv
+https://Teerex-vital.github.io/rsschool-cv/
