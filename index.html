@@ -14,6 +14,7 @@
                     <li><a href="#about">О себе</a></li>
                     <li><a href="#contacts">Контакты</a></li>
                     <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#projects">Проекты</a></li>
                     <li><a href="#education">Образование</a></li>
                 </ul>
             </nav>
@@ -21,62 +22,68 @@
     </header>
 
     <main class="container">
-        <section class="section" id="about">
+        <section id="about" class="section">
             <div class="profile-header">
-                <img src="assets/my-photo.jpg" alt="Акуленко Виталий Владимирович" class="avatar">
+                <img src="assets/my-photo.jpg" alt="Фотография Акуленко Виталия" class="avatar">
                 <div class="profile-info">
                     <h1>Акуленко Виталий Владимирович</h1>
-                    <p>Электромонтажник с 10 летним стажем. Работать с проводами и электро-инструментом научился. Хочу освоить новую профессию. Прохожу курс Разработка веб-сайтов с использованием HTML, CSS и JavaScript в RSschool.</p>
+                    <p>Электромонтажник с 10-летним стажем. Сейчас я активно меняю сферу деятельности и обучаюсь Frontend-разработке на курсе RS School. Обладаю высокой дисциплиной и техническим складом ума.</p>
                 </div>
             </div>
         </section>
 
-        <section class="section" id="contacts">
+        <section id="contacts" class="section">
             <h2>Контактная информация</h2>
             <ul class="contact-list">
                 <li>Телефон: <a href="tel:+375445797319">+375 (44) 579-73-19</a></li>
                 <li>Email: <a href="mailto:vital.akulenko@gmail.com">vital.akulenko@gmail.com</a></li>
-                <li>Телеграм: <a href="https://t.me">@Teerex_vital</a></li>
-                <li>GitHub: <a href="https://github.com" target="_blank">Teerex-vital</a></li>
+                <li>Telegram: <a href="https://t.me" target="_blank" rel="noopener">@Teerex_vital</a></li>
+                <li>GitHub: <a href="https://github.com" target="_blank" rel="noopener">Teerex-vital</a></li>
             </ul>
         </section>
 
-        <section class="section" id="skills">
-            <h2>Список навыков</h2>
+        <section id="skills" class="section">
+            <h2>Навыки</h2>
             <ul class="skills-list">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Git</li>
-                <li>GitHub</li>
+                <li>HTML5 / CSS3 (Семантика, Flexbox)</li>
+                <li>Git / GitHub (Version Control)</li>
+                <li>JavaScript (Basics)</li>
+                <li>Чтение и монтаж сложных электросхем</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Образовательные проекты</h2>
+            <ul class="projects-list">
+                <li>
+                    <a href="https://github.com/rsschool-cv" target="_blank" rel="noopener">RSSchool CV</a> — Первое адаптивное резюме на HTML/CSS.
+                </li>
             </ul>
         </section>
 
         <section class="section">
-            <h2>Пример разметки</h2>
-            <pre><code>
-&lt;ul&gt;
-  &lt;li&gt;Пункт 1&lt;/li&gt;
-  &lt;li&gt;Пункт 2&lt;/li&gt;
-  &lt;li&gt;Пункт 3&lt;/li&gt;
-&lt;/ul&gt;
-            </code></pre>
+            <h2>Пример кода (JS)</h2>
+            <pre><code>function greet() {
+  console.log("Hello, RS School!");
+}</code></pre>
         </section>
 
-        <section class="section" id="education">
-            <h2>Образование</h2>
+        <section id="education" class="section">
+            <h2>Образование и Языки</h2>
             <ul class="edu-list">
-                <li><strong>Средне специальное:</strong> МГК электроники. Наладчик радио-электронного оборудования.</li>
-                <li><strong>Высшее:</strong> РЭУ Плеханова. Менеджер организации.</li>
+                <li><strong>МГК электроники:</strong> Наладчик радиоэлектронного оборудования.</li>
+                <li><strong>РЭУ Плеханова:</strong> Менеджер организации.</li>
+                <li><strong>Английский язык:</strong> Уровень A1 (Beginner) — в процессе изучения.</li>
             </ul>
         </section>
     </main>
 
     <footer class="footer">
         <div class="container footer-box">
-            <a href="https://github.com" target="_blank" class="gh-link">GitHub: Teerex-vital</a>
-            <span class="year">2026</span>
-            <a href="https://rs.school" target="_blank">
-                <img src="https://raw.githubusercontent.com" alt="RS School Logo" class="footer-logo">
+            <a href="https://github.com" target="_blank" rel="noopener" class="gh-link">GitHub: Teerex-vital</a>
+            <span class="year">2024</span>
+            <a href="https://rs.school" target="_blank" rel="noopener">
+                <img src="https://rs.school" alt="RS School Logo" class="footer-logo">
             </a>
         </div>
     </footer>
