@@ -54,7 +54,7 @@ header {
 }
 
 h1 { font-size: 28px; color: #2c3e50; margin-bottom: 10px; }
-h2 { font-size: 22px; margin: 30px 0 15px; color: #2c3e50; border-left: 5px solid #2c3e50; padding-left: 15px; }
+h2 { font-size: 22px; margin: 25px 0 15px; color: #2c3e50; border-left: 5px solid #2c3e50; padding-left: 15px; }
 
 ul { padding-left: 20px; list-style-type: square; }
 li { margin-bottom: 10px; }
@@ -79,7 +79,7 @@ pre {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent !important; /* УБИРАЕТ БЕЛЫЙ ЦВЕТ */
+    background-color: transparent !important;
 }
 
 .footer-logo {
