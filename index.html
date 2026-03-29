@@ -1,99 +1,73 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме — Акуленко Виталий Владимирович</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#about">О себе</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#education">Образование</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f7f6;
-    color: #333;
-}
+    <main class="container">
+        <section class="section" id="about">
+            <div class="profile-header">
+                <img src="assets/my-photo.jpg" alt="Акуленко Виталий Владимирович" class="avatar">
+                <div class="profile-info">
+                    <h1>Акуленко Виталий Владимирович</h1>
+                    <p>Электромонтажник с 10-летним стажем. Специалист по работе с кабельными линиями и электроинструментом. Прохожу обучение на курсе «JavaScript/Front-end» в RS School.</p>
+                </div>
+            </div>
+        </section>
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
-    background-color: #ffffff;
-}
+        <section class="section" id="contacts">
+            <h2>Контакты</h2>
+            <ul class="contact-list">
+                <li>Телефон: <a href="tel:+375445797319">+375 (44) 579-73-19</a></li>
+                <li>Email: <a href="mailto:vital.akulenko@gmail.com">vital.akulenko@gmail.com</a></li>
+                <li>GitHub: <a href="https://github.com" target="_blank">Teerex-vital</a></li>
+            </ul>
+        </section>
 
-header {
-    background-color: #2c3e50;
-    padding: 15px 0;
-}
+        <section class="section">
+            <h2>Пример разметки</h2>
+            <pre><code>
+&lt;ul&gt;
+  &lt;li&gt;Пункт 1&lt;/li&gt;
+  &lt;li&gt;Пункт 2&lt;/li&gt;
+&lt;/ul&gt;
+            </code></pre>
+        </section>
 
-.nav-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
+        <section class="section" id="education">
+            <h2>Образование</h2>
+            <ul class="edu-list">
+                <li><strong>Высшее:</strong> РЭУ им. Плеханова</li>
+                <li><strong>Среднее:</strong> МГК электроники</li>
+                <li><strong>Курсы:</strong> RS School (2026)</li>
+            </ul>
+        </section>
+    </main>
 
-.nav-list a {
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-}
-
-.profile-header {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    padding: 40px 0;
-    border-bottom: 2px solid #eeeeee;
-}
-
-.avatar {
-    width: 180px;
-    height: 180px;
-    border-radius: 10px;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-h1 { font-size: 28px; color: #2c3e50; margin-bottom: 10px; }
-h2 { font-size: 22px; margin: 30px 0 15px; color: #2c3e50; border-left: 5px solid #2c3e50; padding-left: 15px; }
-
-ul { padding-left: 20px; list-style-type: square; }
-li { margin-bottom: 10px; }
-
-pre {
-    background: #2d2d2d;
-    color: #f8f8f2;
-    padding: 20px;
-    border-radius: 6px;
-    overflow-x: auto;
-}
-
-.footer {
-    background-color: #2c3e50;
-    color: #ffffff;
-    padding: 25px 0;
-    margin-top: 50px;
-}
-
-.footer-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: transparent !important;
-}
-
-.footer-logo {
-    width: 100px;
-    filter: brightness(0) invert(1);
-}
-
-.gh-link {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-@media (max-width: 600px) {
-    .profile-header {
-        flex-direction: column;
-        text-align: center;
-    }
-}
+    <footer class="footer">
+        <div class="container footer-box">
+            <a href="https://github.com" target="_blank" class="gh-link">GitHub: Teerex-vital</a>
+            <span class="year">2026</span>
+            <a href="https://rs.school" target="_blank">
+                <img src="https://raw.githubusercontent.com" alt="RS School Logo" class="footer-logo">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
