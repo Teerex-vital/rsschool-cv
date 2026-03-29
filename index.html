@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме — Акуленко Виталий Владимирович</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#about">О себе</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#code-example">Код</a></li>
+                    <li><a href="#education">Образование</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about" class="section">
+            <div class="profile-header">
+                <img src="assets/my-photo.jpg" alt="Фотография Акуленко Виталия" class="avatar">
+                <div class="profile-info">
+                    <h1>Акуленко Виталий Владимирович</h1>
+                    <p>Электромонтажник с 10-летним стажем. Специалист по работе с сетями и электроинструментом. В данный момент меняю вектор развития и осваиваю Frontend-разработку на курсе RS School (HTML, CSS, JavaScript). Обладаю техническим мышлением и вниманием к деталям.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="section">
+            <h2>Контактная информация</h2>
+            <ul class="contact-list">
+                <li>Телефон: <a href="tel:+375445797319">+375 (44) 579-73-19</a></li>
+                <li>Email: <a href="mailto:vital.akulenko@gmail.com">vital.akulenko@gmail.com</a></li>
+                <li>Telegram: <a href="https://t.me" target="_blank" rel="noopener">@Teerex_vital</a></li>
+                <li>GitHub: <a href="https://github.com" target="_blank" rel="noopener">Teerex-vital</a></li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Навыки</h2>
+            <ul class="skills-list">
+                <li><strong>HTML5</strong> — семантическая верстка и валидация.</li>
+                <li><strong>CSS3</strong> — работа с Flexbox, адаптивность, стилизация.</li>
+                <li><strong>Git / GitHub</strong> — управление версиями, работа с репозиториями.</li>
+                <li><strong>Чтение принципиальных схем</strong> — работа с технической документацией и логикой систем.</li>
+            </ul>
+        </section>
+
+        <section id="code-example" class="section">
+            <h2>Пример кода (JavaScript)</h2>
+            <pre><code>function findShortestWord(str) {
+  const words = str.split(' ');
+  return words.reduce((a, b) => a.length &lt;= b.length ? a : b);
+}</code></pre>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Образование и Языки</h2>
+            <ul class="edu-list">
+                <li><strong>МГК электроники:</strong> Наладчик радиоэлектронного оборудования.</li>
+                <li><strong>РЭУ им. Г.В. Плеханова:</strong> Менеджер организации.</li>
+                <li><strong>Английский язык:</strong> Уровень A1 (Beginner).</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-box">
+            <a href="https://github.com" target="_blank" rel="noopener">GitHub: Teerex-vital</a>
+            <span class="year">2026</span>
+            <a href="https://rs.school" target="_blank" rel="noopener">
+                <img src="https://rs.school" alt="RS School Logo" class="footer-logo">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
